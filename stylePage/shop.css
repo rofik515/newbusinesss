@@ -1,0 +1,53 @@
+
+
+.page-btn{
+    margin: 0 auto 80px;
+}
+
+#pagination span{
+    display: inline-block;
+    border: 1px solid #003604;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+#pagination span:hover{
+    background: green;
+    color: #fff;
+}
+
+/* Shop page */
+
+#page-header{
+    background-image: url(banner/banner.png);
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#page-header h2,
+#page-header p{
+    color: red;
+}
+
+#pagination{
+    text-align: center;
+}
+
+#pagination a{
+    text-decoration: none;
+    background-color: green;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+}
